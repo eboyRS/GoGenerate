@@ -1,0 +1,25 @@
+# NCD-Admin Global Configuration
+# mysql connect configuration
+mysql:
+  username: root
+  password: 'YW020230'
+  path: '118.31.110.1:3306'
+  db-name: 'myapi'
+  config: 'charset=utf8&parseTime=True&loc=Local'
+  max-idle-conns: 10
+  max-open-conns: 10
+  log-mode: false
+template:
+  basepath: "./resource/template"
+  tableName: "t_campaigns"
+  gotpl:
+    - {package: autoCode/api/,fileName: api_campaigns.go,tplpath: ./resource/template/te/api.go.tpl}
+    - {package: autoCode/model/,fileName: api_campaigns.go,tplpath: ./resource/template/te/model.go.tpl}
+    - {package: autoCode/router/,fileName: api_campaigns.go,tplpath: ./resource/template/te/router.go.tpl}
+    - {package: autoCode/service/,fileName: api_campaigns.go,tplpath: ./resource/template/te/service.go.tpl}
+# system configuration
+log:
+  prefix: '[GO-GEN]'
+  log-file: true
+  stdout: 'DEBUG'
+  file: 'DEBUG'
