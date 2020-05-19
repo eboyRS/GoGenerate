@@ -1,4 +1,4 @@
-# NCD-Admin Global Configuration
+# GO-GEN Global Configuration
 # mysql connect configuration
 mysql:
   username: root
