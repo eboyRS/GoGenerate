@@ -64,6 +64,7 @@ func buildAutoCodeStruct(tableName string) (err error, autoCode model.AutoCodeSt
 		}
 		fields = append(fields, field)
 	}
+	autoCode.Project = global.GG_CONFIG.Template.Project
 	autoCode.StructName = convertName(tableName)
 	autoCode.Abbreviation = autoCode.StructName
 	autoCode.Fields = fields

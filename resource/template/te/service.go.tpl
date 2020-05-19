@@ -1,9 +1,9 @@
 package service
 
 import (
-	"NCD/global"
-	"NCD/model"
-	"NCD/model/request"
+	"{{.Project}}/global"
+	"{{.Project}}/model"
+	"{{.Project}}/model/request"
 )
 
 // @title    Create{{.StructName}}

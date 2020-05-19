@@ -1,8 +1,8 @@
 package router
 
 import (
-	"NCD/api"
-    "NCD/middleware"
+	"{{.Project}}/api"
+    "{{.Project}}/middleware"
     "github.com/gin-gonic/gin"
 )
 

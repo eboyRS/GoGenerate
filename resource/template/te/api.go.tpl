@@ -2,11 +2,11 @@ package v1
 
 import (
 	"fmt"
-    "NCD/global/response"
-    "NCD/model"
-    "NCD/model/request"
-    resp "NCD/model/response"
-    "NCD/service"
+    "{{.Project}}/global/response"
+    "{{.Project}}/model"
+    "{{.Project}}/model/request"
+    resp "{{.Project}}/model/response"
+    "{{.Project}}/service"
     "github.com/gin-gonic/gin"
 )
 

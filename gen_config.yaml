@@ -10,7 +10,7 @@ mysql:
   max-open-conns: 10
   log-mode: false
 template:
-  basepath: "./resource/template"
+  project: "GoGenerate"
   tableName: "t_campaigns"
   gotpl:
     - {package: autoCode/api/,fileName: api_campaigns.go,tplpath: ./resource/template/te/api.go.tpl}

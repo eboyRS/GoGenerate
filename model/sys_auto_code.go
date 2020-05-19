@@ -3,7 +3,7 @@ package model
 // 初始版本自动化代码工具
 type AutoCodeStruct struct {
 	StructName   string  `json:"structName"`
-	PackageName  string  `json:"packageName"`
+	Project      string  `json:"project"`
 	Abbreviation string  `json:"abbreviation"`
 	Fields       []Field `json:"fields"`
 }

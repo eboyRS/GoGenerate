@@ -26,7 +26,7 @@ type Log struct {
 }
 
 type Template struct {
-	BasePath  string        `mapstructure:"basepath" json:"basepath" yaml:"basepath"`
+	Project   string        `mapstructure:"project" json:"project" yaml:"project"`
 	TableName string        `mapstructure:"TableName" json:"TableName" yaml:"TableName"`
 	GoTpl     []model.GoTpl `mapstructure:"gotpl" json:"gotpl" yaml:"gotpl"`
 }
