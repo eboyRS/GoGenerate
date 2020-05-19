@@ -17,6 +17,7 @@
 # vendor/
 .idea/*
 /autoCode/*
+/gen_log/*
 /go_build_GoGenerate
 /gen_latest_log
 
